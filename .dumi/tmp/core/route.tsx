@@ -18,9 +18,9 @@ export async function getRoutes() {
       isLayout: true,
     },
     'docs/index': { path: '', id: 'docs/index', parentId: 'DocLayout' },
-    'components/ProImage/index': {
-      id: 'components/ProImage/index',
-      path: 'components/pro-image',
+    'components/react-laziness-image/index': {
+      id: 'components/react-laziness-image/index',
+      path: 'components/react-laziness-image',
       parentId: 'DocLayout',
       meta: { _atom_route: true },
     },
@@ -57,10 +57,10 @@ export async function getRoutes() {
             /* webpackChunkName: "docs__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/docs/index.md'
           ),
       ),
-      'components/ProImage/index': React.lazy(
+      'components/react-laziness-image/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "ProImage__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/ProImage/index.md'
+            /* webpackChunkName: "react-laziness-image__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/react-laziness-image/index.md'
           ),
       ),
       'demo-render': React.lazy(

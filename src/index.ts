@@ -1,1 +1,1 @@
-export { default as ProImage } from './ProImage';
+export { default as ReactLazinessImage } from './react-laziness-image';

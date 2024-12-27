@@ -6,11 +6,11 @@ import {
   frontmatter as fm0,
   toc as t0,
 } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/docs/index.md?type=frontmatter';
-import { demoIndex as dmi1 } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/ProImage/index.md?type=demo-index';
+import { demoIndex as dmi1 } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/react-laziness-image/index.md?type=demo-index';
 import {
   frontmatter as fm1,
   toc as t1,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/ProImage/index.md?type=frontmatter';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/react-laziness-image/index.md?type=frontmatter';
 
 export const filesMeta = {
   'docs/index': {
@@ -22,13 +22,13 @@ export const filesMeta = {
         /* webpackChunkName: "meta__docs" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/docs/index.md?type=text'
       ),
   },
-  'components/ProImage/index': {
+  'components/react-laziness-image/index': {
     frontmatter: fm1,
     toc: t1,
     demoIndex: dmi1,
     textGetter: () =>
       import(
-        /* webpackChunkName: "meta__ProImage" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/ProImage/index.md?type=text'
+        /* webpackChunkName: "meta__react-laziness-image" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/react-laziness-image/index.md?type=text'
       ),
   },
 };

@@ -14,7 +14,7 @@ import { renderClient } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image
 import { setPluginManager as setDumiPluginManager } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/utils.js';
 
 const publicPath = '/';
-const runtimePublicPath = true;
+const runtimePublicPath = false;
 
 async function render() {
   const pluginManager = createPluginManager();

@@ -2,7 +2,7 @@ import { defineConfig } from 'dumi';
 
 const publicPath =
   process.env.NODE_ENV === 'production'
-    ? `/react-lazy-image/refs/heads/master/`
+    ? `/react-laziness-image/refs/heads/master/`
     : '/';
 
 const logo =
@@ -11,7 +11,7 @@ const logo =
 export default defineConfig({
   outputPath: 'site',
   themeConfig: {
-    name: 'react-lazy-image',
+    name: 'ReactLazinessImage',
     logo,
   },
   publicPath,

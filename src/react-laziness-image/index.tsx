@@ -16,7 +16,7 @@ export type ImageProps = React.ImgHTMLAttributes<HTMLImageElement> & {
   useWebp?: boolean;
 };
 
-const ProImage: FC<ImageProps> = (props) => {
+const ReactLazyImagePro: FC<ImageProps> = (props) => {
   const {
     useLazy = true,
     useWebp = true,
@@ -63,4 +63,4 @@ const ProImage: FC<ImageProps> = (props) => {
   return <img {...srcProps} />;
 };
 
-export default ProImage;
+export default ReactLazyImagePro;

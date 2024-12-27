@@ -15,13 +15,13 @@ const entryExports = {};
 
 // Static content
 const pkg = {
-  name: '@xmly/react-lazy-image',
+  name: '@xmly/react-laziness-image',
   description: '增强型图片组件，支持 图片懒加载、webp格式 的效果',
   version: '1.0.0',
   license: 'MIT',
   repository: {
     type: 'git',
-    url: 'https://gitlab.ximalaya.com/react-library/component/react-lazy-image',
+    url: 'https://gitlab.ximalaya.com/react-library/component/react-laziness-image',
   },
   authors: ['kaiyu.kong'],
 };
@@ -33,7 +33,7 @@ const themeConfig = {
   prefersColor: { default: 'light', switch: true },
   nprogress: true,
   lastUpdated: true,
-  name: 'react-lazy-image',
+  name: 'ReactLazinessImage',
   logo: 'https://imagev2.xmcdn.com/storages/f8d2-audiofreehighqps/81/43/GMCoOSYIO18uAAAvaAIdYbXD.png',
 };
 const _2_level_nav_available = true;

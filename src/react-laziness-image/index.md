@@ -1,21 +1,17 @@
 ---
-title: ProImage
+title: ReactLazinessImage
 nav:
   title: 快速上手
   path: /components
 ---
 
-# ProImage
+# ReactLazinessImage
 
 ## 安装
 
 ```bash
-yarn add @xmly/react-lazy-image
+yarn add @xmly/react-laziness-image
 ```
-
-## 使用方式
-
-和 `img` 标签用法一致，在 `img` 标签的基础上额外扩展了一些控制效果的属性
 
 ## 基本用法
 
