@@ -1,7 +1,7 @@
 ---
 hero:
   title: react-lazy-image
-  description: 图片
+  description: 图片react懒加载组件，减少首屏图片请求
   actions:
     - text: 快速上手
       link: /components/react-lazy-image
