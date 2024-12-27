@@ -33,7 +33,7 @@ const themeConfig = {
   prefersColor: { default: 'light', switch: true },
   nprogress: true,
   lastUpdated: true,
-  name: 'ReactLazinessImage',
+  name: 'react-laziness-image',
   logo: 'https://imagev2.xmcdn.com/storages/f8d2-audiofreehighqps/81/43/GMCoOSYIO18uAAAvaAIdYbXD.png',
 };
 const _2_level_nav_available = true;

@@ -11,7 +11,7 @@ const logo =
 export default defineConfig({
   outputPath: 'site',
   themeConfig: {
-    name: 'ReactLazinessImage',
+    name: 'react-laziness-image',
     logo,
   },
   publicPath,
