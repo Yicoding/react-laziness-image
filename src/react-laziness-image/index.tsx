@@ -1,6 +1,5 @@
 import type { FC } from 'react';
 import React, { useEffect } from 'react';
-import { expandImageUrl, isSupportWebp } from '../_utils/tools';
 
 import { observeInit } from '../_utils/lazy';
 
@@ -12,14 +11,11 @@ export type ImageProps = React.ImgHTMLAttributes<HTMLImageElement> & {
   defaultSrc?: string;
   /** 是否使用图片懒加载，默认使用 */
   useLazy?: boolean;
-  /** 是否使用webp，默认使用 */
-  useWebp?: boolean;
 };
 
 const ReactLazyImagePro: FC<ImageProps> = (props) => {
   const {
     useLazy = true,
-    useWebp = true,
     className,
     style,
     src,
@@ -27,15 +23,10 @@ const ReactLazyImagePro: FC<ImageProps> = (props) => {
     ...resProps
   } = props;
 
+  // 初始化懒加载库
   useEffect(() => {
     observeInit();
   }, []);
-
-  /** 是否使用webp */
-  const isUseWebp = isSupportWebp(src) && useWebp;
-
-  // 处理后的图片地址
-  const url = isUseWebp ? expandImageUrl(src, 'xmagick=webp') : src;
 
   // 图片属性
   const srcProps = {
@@ -49,16 +40,10 @@ const ReactLazyImagePro: FC<ImageProps> = (props) => {
     ...resProps,
   };
 
-  // 使用懒加载
-  if (useLazy) {
-    Object.assign(srcProps, {
-      'data-src': url,
-    });
-  } else {
-    Object.assign(srcProps, {
-      src: url,
-    });
-  }
+  // 懒加载功能
+  Object.assign(srcProps, {
+    [useLazy ? 'data-src' : 'src']: src,
+  });
 
   return <img {...srcProps} />;
 };

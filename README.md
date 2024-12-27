@@ -2,11 +2,11 @@
 
 # 介绍
 
-增强型图片组件，支持 `图片懒加载`、`webp格式` 的效果
+基于 react 的图片懒加载组件
 
 ## 使用文档
 
-[查看文档](http://react-library.pages.xmly.work/component/react-laziness-image)
+[查看文档](https://yicoding.github.io/react-laziness-image/)
 
 ## 安装
 
