@@ -12,6 +12,7 @@ export default defineConfig({
     logo,
   },
   publicPath,
+  runtimePublicPath: {},
   history: {
     type: 'hash',
   },

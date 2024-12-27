@@ -1,7 +1,7 @@
 ---
 hero:
   title: react-lazy-image
-  description: 增强型图片组件，支持 图片懒加载、webp格式 的效果
+  description: 图片
   actions:
     - text: 快速上手
       link: /components/react-lazy-image
