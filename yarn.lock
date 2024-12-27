@@ -5071,7 +5071,7 @@ dumi-assets-types@2.4.14:
   resolved "https://registry.npmmirror.com/dumi-assets-types/-/dumi-assets-types-2.4.14.tgz#d0a3d24f810a43bf29a27a7f95e4d3b159bd3d1e"
   integrity sha512-k2Z3z7/IcHOYASP/nDjocShdzXatmOuhkAwgYw/4KNiq36gpAKjn5MlrPkzdGH70TbcHGLGEul9b/4sYJLoS9A==
 
-dumi@^2.2.13:
+dumi@^2.4.17:
   version "2.4.17"
   resolved "https://registry.npmmirror.com/dumi/-/dumi-2.4.17.tgz#2073f673d37c8044197e074baaae2b8fd703072e"
   integrity sha512-rWCD3gyqkMxim5xHoe5J6AL+vmaEVeoBKs7Gr2gXV7iVlNppJXSog9Yr8fm/5GAx+9BFq/ebx/UCXWFdcfAgFA==

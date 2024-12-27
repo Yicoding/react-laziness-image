@@ -13,7 +13,7 @@ import { getRoutes } from './core/route';
 import { renderClient } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
 import { setPluginManager as setDumiPluginManager } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/utils.js';
 
-const publicPath = './';
+const publicPath = '/react-lazy-image/refs/heads/master/';
 const runtimePublicPath = true;
 
 async function render() {

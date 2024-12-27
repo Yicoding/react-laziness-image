@@ -8,8 +8,8 @@ import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import {
-  renderClient,
   RenderClientOpts,
+  renderClient,
 } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
 
 const publicPath = '/';
