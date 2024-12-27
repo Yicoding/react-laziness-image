@@ -1,12 +1,12 @@
 ---
 hero:
-  title: pro-image
+  title: react-lazy-image
   description: 增强型图片组件，支持 图片懒加载、webp格式 的效果
   actions:
     - text: 快速上手
-      link: /components/pro-image
+      link: /components/react-lazy-image
     - text: gitlab
-      link: https://gitlab.ximalaya.com/react-library/component/pro-image
+      link: https://gitlab.ximalaya.com/react-library/component/react-lazy-image
 features:
   - title: 图片懒加载
     emoji: 🚀
