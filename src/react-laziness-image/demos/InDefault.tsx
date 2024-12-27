@@ -4,8 +4,8 @@
  * defaultShowCode: true
  */
 
-import { ReactLazinessImage } from '@xmly/react-laziness-image';
 import React from 'react';
+import { ReactLazinessImage } from 'react-laziness-image';
 
 export default () => {
   return (

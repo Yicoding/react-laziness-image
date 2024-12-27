@@ -17,7 +17,7 @@ const entryExports = {};
 const pkg = {
   name: '@xmly/react-laziness-image',
   description: '基于react的图片懒加载组件',
-  version: '1.0.0',
+  version: '1.0.1',
   license: 'MIT',
   repository: {
     type: 'git',

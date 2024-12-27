@@ -1,4 +1,4 @@
-# @xmly/react-laziness-image
+# react-laziness-image
 
 # 介绍
 
@@ -11,13 +11,13 @@
 ## 安装
 
 ```bash
-yarn add @xmly/react-laziness-image
+yarn add react-laziness-image
 ```
 
 ## 示例
 
 ```tsx
-import { ReactLazinessImage } from '@xmly/react-laziness-image';
+import { ReactLazinessImage } from 'react-laziness-image';
 
 export default () => {
   <ReactLazinessImage

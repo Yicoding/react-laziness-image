@@ -1,4 +1,10 @@
-# @xmly/react-laziness-image
+# react-laziness-image
+
+## 1.0.2
+
+### Patch Changes
+
+- init
 
 ## 1.0.1
 

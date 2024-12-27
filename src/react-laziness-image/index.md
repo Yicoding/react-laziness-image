@@ -10,7 +10,7 @@ nav:
 ## 安装
 
 ```bash
-yarn add @xmly/react-laziness-image
+yarn add react-laziness-image
 ```
 
 ## 基本用法

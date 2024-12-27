@@ -8,8 +8,8 @@
     "baseUrl": "./",
     "paths": {
       "@@/*": [".dumi/tmp/*"],
-      "@xmly/react-laziness-image": ["src"],
-      "@xmly/react-laziness-image/*": ["src/*", "*"]
+      "react-laziness-image": ["src"],
+      "react-laziness-image/*": ["src/*", "*"]
     }
   },
   "include": [".dumirc.ts", "src/**/*"]
