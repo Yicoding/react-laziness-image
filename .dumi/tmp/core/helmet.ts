@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import React from 'react';
 import { context } from './helmetContext';
-import { HelmetProvider } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
+import { HelmetProvider } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
 
 export const innerProvider = (container) => {
   return React.createElement(HelmetProvider, { context }, container);

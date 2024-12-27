@@ -5,7 +5,7 @@
 export { defineApp } from './core/defineApp';
 export type { RuntimeConfig } from './core/defineApp';
 // plugins
-export { getSketchJSON } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/.dumi/tmp/plugin-html2sketch';
+export { getSketchJSON } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/.dumi/tmp/plugin-html2sketch';
 // plugins types.d.ts
 // @umijs/renderer-*
 export {
@@ -43,18 +43,18 @@ export {
   useSelectedRoutes,
   useServerLoaderData,
   withRouter,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
 export type {
   ClientLoader,
   History,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
 // umi/client/client/plugin
 export { createHistory, history } from './core/history';
 export { terminal } from './core/terminal';
 export {
   ApplyPluginsType,
   PluginManager,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/umi/client/client/plugin.js';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/umi/client/client/plugin.js';
 // react ssr
 export const useServerInsertedHTML: Function = () => {};
 // test

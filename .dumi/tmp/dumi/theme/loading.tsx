@@ -4,8 +4,8 @@
 import { useSiteData } from 'dumi';
 import React, { useLayoutEffect, type FC } from 'react';
 import './nprogress.css';
-import UserLoading from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/pages/Loading';
-import nprogress from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/nprogress';
+import UserLoading from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/pages/Loading';
+import nprogress from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/nprogress';
 
 const DumiLoading: FC = () => {
   const { setLoading } = useSiteData();

@@ -4,12 +4,12 @@
 import { history } from 'dumi';
 import React, { useCallback, useState, type ReactNode } from 'react';
 import { locales, messages } from './config';
-import { useIsomorphicLayoutEffect } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/utils.js';
+import { useIsomorphicLayoutEffect } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/theme-api/utils.js';
 import {
   RawIntlProvider,
   createIntl,
   createIntlCache,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/react-intl';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/react-intl';
 
 const cache = createIntlCache();
 
@@ -42,9 +42,11 @@ const LocalesContainer: FC<{ children: ReactNode }> = (props) => {
     const localeMessages = messages[locale] || {};
 
     // append internal message, for use intl as string template util
-    localeMessages['$internal.edit.link'] = undefined;
+    localeMessages['$internal.edit.link'] =
+      'https://github.com/Yicoding/react-laziness-image/edit/master/{filename}';
 
-    localeMessages['$internal.api.sourceLink'] = undefined;
+    localeMessages['$internal.api.sourceLink'] =
+      'https://github.com/Yicoding/react-laziness-image/tree/master/{fileName}#L{line}';
 
     return createIntl({ locale, messages: localeMessages }, cache);
   }, []);

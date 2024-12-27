@@ -6,7 +6,7 @@ import {
   createBrowserHistory,
   createHashHistory,
   createMemoryHistory,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
 
 let history: UmiHistory;
 let basename: string = '/';

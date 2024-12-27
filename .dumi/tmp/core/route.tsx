@@ -36,37 +36,37 @@ export async function getRoutes() {
       '404': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__dumi__dist__client__pages__404" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/pages/404.js'
+            /* webpackChunkName: "nm__dumi__dist__client__pages__404" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/pages/404.js'
           ),
       ),
       'dumi-context-layout': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/.dumi/tmp/dumi/theme/ContextWrapper'
+            /* webpackChunkName: "dumi__tmp__dumi__theme__ContextWrapper" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/.dumi/tmp/dumi/theme/ContextWrapper'
           ),
       ),
       DocLayout: React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
+            /* webpackChunkName: "nm__dumi__theme-default__layouts__DocLayout__index" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/theme-default/layouts/DocLayout/index.js'
           ),
       ),
       'docs/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "docs__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/docs/index.md'
+            /* webpackChunkName: "docs__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/docs/index.md'
           ),
       ),
       'components/react-laziness-image/index': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "react-laziness-image__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/src/react-laziness-image/index.md'
+            /* webpackChunkName: "react-laziness-image__index.md" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/src/react-laziness-image/index.md'
           ),
       ),
       'demo-render': React.lazy(
         () =>
           import(
-            /* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/pages/Demo/index.js'
+            /* webpackChunkName: "nm__dumi__dist__client__pages__Demo__index" */ '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/pages/Demo/index.js'
           ),
       ),
     },

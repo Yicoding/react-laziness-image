@@ -8,22 +8,21 @@ import { components } from '../meta/atoms';
 import {
   SiteContext,
   type ISiteContext,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/context.js';
-import { warning } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/rc-util';
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/theme-api/context.js';
+import { warning } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/rc-util';
 
 const entryExports = {};
 
 // Static content
 const pkg = {
   name: '@xmly/react-laziness-image',
-  description: '增强型图片组件，支持 图片懒加载、webp格式 的效果',
+  description: '基于react的图片懒加载组件',
   version: '1.0.0',
   license: 'MIT',
   repository: {
     type: 'git',
-    url: 'https://gitlab.ximalaya.com/react-library/component/react-laziness-image',
+    url: 'https://github.com/Yicoding/react-laziness-image',
   },
-  authors: ['kaiyu.kong'],
 };
 const historyType = 'hash';
 const hostname = undefined;
@@ -35,6 +34,10 @@ const themeConfig = {
   lastUpdated: true,
   name: 'react-laziness-image',
   logo: 'https://imagev2.xmcdn.com/storages/f8d2-audiofreehighqps/81/43/GMCoOSYIO18uAAAvaAIdYbXD.png',
+  sourceLink:
+    'https://github.com/Yicoding/react-laziness-image/tree/master/{fileName}#L{line}',
+  editLink:
+    'https://github.com/Yicoding/react-laziness-image/edit/master/{filename}',
 };
 const _2_level_nav_available = true;
 

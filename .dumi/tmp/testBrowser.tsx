@@ -8,9 +8,9 @@ import { createHistory } from './core/history';
 import { createPluginManager } from './core/plugin';
 import { getRoutes } from './core/route';
 import {
-  RenderClientOpts,
   renderClient,
-} from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
+  RenderClientOpts,
+} from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
 
 const publicPath = '/';
 const runtimePublicPath = false;

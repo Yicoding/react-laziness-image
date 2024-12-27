@@ -1,6 +1,6 @@
 {
   "name": "@xmly/react-laziness-image",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "基于react的图片懒加载组件",
   "bugs": {
     "url": "https://github.com/Yicoding/react-laziness-image/issues"

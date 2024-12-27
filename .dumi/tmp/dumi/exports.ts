@@ -3,4 +3,4 @@
 // DO NOT CHANGE IT MANUALLY!
 export * from '../exports';
 export * from './meta/exports';
-export * from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/index.js';
+export * from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/theme-api/index.js';

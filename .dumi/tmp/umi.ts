@@ -10,8 +10,8 @@ import {
 } from './core/plugin';
 import './core/polyfill';
 import { getRoutes } from './core/route';
-import { renderClient } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/@umijs/renderer-react';
-import { setPluginManager as setDumiPluginManager } from '/Users/kaiyu.kong/kaiyu.kong/util/react-lazy-image/node_modules/dumi/dist/client/theme-api/utils.js';
+import { renderClient } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/@umijs/renderer-react';
+import { setPluginManager as setDumiPluginManager } from '/Users/kaiyu.kong/kaiyu.kong/util/react-laziness-image/node_modules/dumi/dist/client/theme-api/utils.js';
 
 const publicPath = '/';
 const runtimePublicPath = false;
